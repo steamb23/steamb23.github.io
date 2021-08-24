@@ -2,6 +2,7 @@
   Include vars:
 	title
   subtitle
+  	class
 	photo
 	photo-alt
 	auto-header
@@ -16,9 +17,10 @@
 		<img src="{{- include.photo | relative_url -}}" alt="{{- include.photo-alt -}}" class="back">
 	{%- endcapture -%}
 	{%- assign _class = 'shade-one cover dark' -%}
+	{%- capture _class -%}shade-one cover dark {{include.class}}{%- endcapture -%}
 {%- else -%}
 	{%- assign _photo = '' -%}
-	{%- capture _class -%}shade-{%- cycle 'two', 'three', 'four', 'three' -%}{%- endcapture -%}
+	{%- capture _class -%}shade-{%- cycle 'two', 'three', 'four', 'three' -%} {{include.class}}{%- endcapture -%}
 {%- endif -%}
 
 {%- if include.auto-header == 'none' -%}
