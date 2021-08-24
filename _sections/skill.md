@@ -1,6 +1,6 @@
 ---
 title: 기술
-icon: fa-envelope
+icon: fa-check
 order: 4
 ---
 제가 사용해본 기술들을 색깔별로 분류했습니다.<br />
