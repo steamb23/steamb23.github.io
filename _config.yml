@@ -31,9 +31,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 맛난호빵
-subtitle: 포트폴리오
+subtitle: 공개 포트폴리오
 description: >- # this means to ignore newlines until "baseurl:"
-  맛난호빵의 개인 포트폴리오를 정리한 사이트입니다.
+  맛난호빵의 웹 공개용 개인 포트폴리오를 정리한 사이트입니다.
 author: SteamB23
 email: steamb23@outlook.com
 avatar: assets/images/avatar.jpg
