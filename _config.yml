@@ -33,8 +33,7 @@
 title: 맛난호빵
 subtitle: 포트폴리오
 description: >- # this means to ignore newlines until "baseurl:"
-  This is the demo site for a Jekyll theme version of
-  HTML5 UP's sleek, responsive site template Prologue.
+  맛난호빵의 개인 포트폴리오를 정리한 사이트입니다.
 author: SteamB23
 email: steamb23@outlook.com
 avatar: assets/images/avatar.jpg
@@ -46,11 +45,11 @@ url: "" # the base hostname & protocol for your site
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
 twitter_url:
-facebook_url:
+facebook_url: https://www.facebook.com/steamb23
 googleplus_url:
 instagram_url:
 linkedin_url:
-github_url:
+github_url: https://github.com/steamb23
 stackoverflow_url:
 pinterest_url:
 slack_url:
