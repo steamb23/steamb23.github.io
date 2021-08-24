@@ -67,6 +67,8 @@
 		line-height: 1.75em;
 		color: #888;
 
+		word-break: keep-all;
+
 		&.is-loading * {
 			@include vendor('transition', 'none !important');
 			@include vendor('animation', 'none !important');
