@@ -19,7 +19,7 @@ order: 4
 ### 마크업 언어
 <span class="skill_green">Markdown</span>
 <span class="skill_yellow">HTML</span>
-<span class="skill_red">CSS</span>
+<span class="skill_yellow">CSS</span>
 
 ### 게임 기술 스택
 <span class="skill_green">Unity</span>
