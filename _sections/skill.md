@@ -3,7 +3,29 @@ title: 기술 및 경험
 icon: fa-check
 order: 3
 ---
-제가 사용해본 기술들을 종류별로 분류하고 숙련도 순으로 나열해보았습니다.
+제가 지금 쓸 수 있는 기술은 아래와 같습니다.
+
+### Unity
+* 2D, 3D 게임 개발 경험
+* 커스텀 에디터 확장
+* 렌더링 파이프라인 확장 (URP)
+
+### 백엔드 기술
+* Web API (ASP.Net, Node.js)
+* MariaDB
+* MongoDB
+
+### 범용 기술
+* Winform
+* WPF
+* Windows API
+* DirectX
+
+### 협업 도구
+* Git
+* Notion
+* Jira
+-----------
 
 ### 게임 기술 스택
 <span class="skill_green">Unity</span>
