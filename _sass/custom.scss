@@ -1,11 +1,11 @@
 #main {
-    > section.intro {
+    section.intro {
         height: 100vh;
         align-items: center;
         display: flex;
     }
 
-    > .skill_green {
+    .skill_green {
         background-color: #c4ef83;
         color: #278800;
         font-weight: bolder;
@@ -14,7 +14,7 @@
         border-radius: 0.3em;
     }
 
-    > .skill_yellow {
+    .skill_yellow {
         background-color: #ffe876;
         color: #807b00;
         font-weight: bolder;
@@ -23,7 +23,7 @@
         border-radius: 0.3em;
     }
 
-    > .skill_red {
+    .skill_red {
         background-color: #ffb093;
         color: #b94c23;
         font-weight: bolder;
@@ -32,7 +32,7 @@
         border-radius: 0.3em;
     }
 
-    > .skill_gray {
+    .skill_gray {
         background-color: #c3c3c3;
         color: #666666;
         font-weight: bolder;
@@ -41,7 +41,7 @@
         border-radius: 0.3em;
     }
 
-    > .left_align {
+    .left_align {
         text-align: left;
     }
 }
