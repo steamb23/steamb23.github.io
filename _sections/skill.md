@@ -24,8 +24,11 @@ order: 3
 <span class="skill_yellow">MariaDB</span>
 <span class="skill_yellow">MongoDB</span>
 
+### Git
+<span class="skill_yellow">저장소 관리</span>
+<span class="skill_yellow">병합 충돌 해결</span>
+
 ### 협업 도구
-<span class="skill_yellow">Git</span>
 <span class="skill_yellow">Notion</span>
 <span class="skill_yellow">Jira</span>
 
