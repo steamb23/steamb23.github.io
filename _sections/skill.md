@@ -6,63 +6,33 @@ order: 3
 제가 지금 쓸 수 있는 기술은 아래와 같습니다.
 
 ### Unity
-<span class="skill_green">2D, 3D 게임 개발 경험</span>
-<span class="skill_green">커스텀 에디터 확장</span>
-<span class="skill_green">렌더링 파이프라인 확장 (URP)</span>
+<span class="skill_yellow">2D, 3D 게임 개발 경험</span>
+<span class="skill_yellow">커스텀 에디터 확장</span>
+<span class="skill_yellow">렌더링 파이프라인 확장 (URP)</span>
 
-### 백엔드 기술
-<span class="skill_green">Web API (ASP.Net, Node.js)</span>
-<span class="skill_green">MariaDB</span>
-<span class="skill_green">MongoDB</span>
+### C# 프로그래밍
+<span class="skill_yellow">창 기반 응용 프로그램 (Winform, WPF)</span>
+<span class="skill_yellow">.Net 5</span>
+<span class="skill_yellow">P/Invoke</span>
 
-### 범용 기술
-<span class="skill_green">Winform</span>
-<span class="skill_green">WPF</span>
-<span class="skill_green">Windows API</span>
-<span class="skill_green">DirectX</span>
+### C++ 프로그래밍
+<span class="skill_yellow">Modern C++</span>
+<span class="skill_yellow">STL</span>
 
-### 협업 도구
-<span class="skill_green">Git</span>
-<span class="skill_green">Notion</span>
-<span class="skill_green">Jira</span>
------------
-
-### 게임 기술 스택
-<span class="skill_green">Unity</span>
-<span class="skill_red">GameMaker Studio</span>
-
-### 서버 기술 스택
-<span class="skill_yellow">ASP.Net</span>
-<span class="skill_yellow">Node.js</span>
+### 백엔드
+<span class="skill_yellow">Web API (ASP.Net, Node.js)</span>
 <span class="skill_yellow">MariaDB</span>
 <span class="skill_yellow">MongoDB</span>
 
-### 범용 기술 스택
-<span class="skill_green">Winform</span>
-<span class="skill_green">WPF</span>
-<span class="skill_yellow">Windows API</span>
-<span class="skill_red">DirectX</span>
-
 ### 협업 도구
-<span class="skill_green">Git</span>
-<span class="skill_green">Notion</span>
+<span class="skill_yellow">Git</span>
+<span class="skill_yellow">Notion</span>
 <span class="skill_yellow">Jira</span>
-
-### 프로그래밍 언어
-<span class="skill_green">C#</span>
-<span class="skill_yellow">C++</span>
-<span class="skill_yellow">Java</span>
-<span class="skill_yellow">Javascript</span>
-<span class="skill_red">Python</span>
-<span class="skill_red">Ruby</span>
-
-### 마크업 언어
-<span class="skill_green">Markdown</span>
-<span class="skill_yellow">HTML</span>
-<span class="skill_yellow">CSS</span>
 
 ### 그외 관심 있는 기술
 <span class="skill_gray">Godot Engine</span>
 <span class="skill_gray">Unreal Engine</span>
 <span class="skill_gray">Azure</span>
 <span class="skill_gray">AWS</span>
+<span class="skill_gray">Python</span>
+<span class="skill_gray">Ruby</span>
