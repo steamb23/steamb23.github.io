@@ -6,25 +6,25 @@ order: 3
 제가 지금 쓸 수 있는 기술은 아래와 같습니다.
 
 ### Unity
-* 2D, 3D 게임 개발 경험
-* 커스텀 에디터 확장
-* 렌더링 파이프라인 확장 (URP)
+<span class="skill_green">2D, 3D 게임 개발 경험</span>
+<span class="skill_green">커스텀 에디터 확장</span>
+<span class="skill_green">렌더링 파이프라인 확장 (URP)</span>
 
 ### 백엔드 기술
-* Web API (ASP.Net, Node.js)
-* MariaDB
-* MongoDB
+<span class="skill_green">Web API (ASP.Net, Node.js)</span>
+<span class="skill_green">MariaDB</span>
+<span class="skill_green">MongoDB</span>
 
 ### 범용 기술
-* Winform
-* WPF
-* Windows API
-* DirectX
+<span class="skill_green">Winform</span>
+<span class="skill_green">WPF</span>
+<span class="skill_green">Windows API</span>
+<span class="skill_green">DirectX</span>
 
 ### 협업 도구
-* Git
-* Notion
-* Jira
+<span class="skill_green">Git</span>
+<span class="skill_green">Notion</span>
+<span class="skill_green">Jira</span>
 -----------
 
 ### 게임 기술 스택
