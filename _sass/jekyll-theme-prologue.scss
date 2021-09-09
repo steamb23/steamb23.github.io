@@ -413,6 +413,18 @@
 			text-align: right;
 		}
 
+		col {
+			&.centered
+			{
+				text-align: center;
+			}
+	
+			&.right
+			{
+				text-align: right;
+			}
+		}
+
 		tbody {
 			tr {
 				&:nth-child(2n+2) {
