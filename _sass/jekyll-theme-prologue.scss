@@ -263,6 +263,12 @@
 			width: 100%;
 		}
 
+		&.maxfit
+		{
+			display: block;
+			max-width: 100%;
+		}
+
 		&.featured {
 			display: block;
 			width: 100%;
