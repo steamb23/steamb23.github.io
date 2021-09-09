@@ -265,12 +265,10 @@
 
 		&.maxfit
 		{
-			display: block;
-			max-width: 100%;
-
 			img {
 				display: block;
 				width: auto;
+				max-width: 100%;
 			}
 		}
 
