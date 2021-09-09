@@ -403,6 +403,16 @@
 		width: 100%;
 		text-align: left;
 
+		&.centered
+		{
+			text-align: center;
+		}
+
+		&.right
+		{
+			text-align: right;
+		}
+
 		tbody {
 			tr {
 				&:nth-child(2n+2) {
@@ -413,6 +423,16 @@
 
 		td {
 			padding: 0.5em 1em 0.5em 1em;
+
+			&.centered
+			{
+				text-align: center;
+			}
+
+			&.right
+			{
+				text-align: right;
+			}
 		}
 
 		th {
@@ -420,6 +440,16 @@
 			padding: 0.5em 1em 0.5em 1em;
 			color: #fff;
 			background: #222729 url('images/overlay.png');
+
+			&.centered
+			{
+				text-align: center;
+			}
+
+			&.right
+			{
+				text-align: right;
+			}
 		}
 
 		thead {
