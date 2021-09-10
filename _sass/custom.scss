@@ -44,4 +44,28 @@
     .left_align {
         text-align: left;
     }
+
+    .center_align {
+        text-align: center;
+    }
+}
+
+div.centered {
+    display: block;
+    margin: 0 auto 2em auto;
+    text-align: center;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
 }
