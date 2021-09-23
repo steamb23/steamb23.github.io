@@ -9,8 +9,8 @@ layout: default
 	<article class="shade-two">
 	  <div class="container">
 			<header>
-				<h2>{{- page.title -}}</h2>
-				{%- if page.subtitle -%}<p>{{- page.subtitle -}}</p>{%- endif -%}
+				<h2 style="display: inline;">{{- page.title -}}</h2>
+				{%- if page.subtitle -%}<span style="margin-left: 1em;">{{- page.subtitle -}}</span>{%- endif -%}
 			</header>
 	    {{- content -}}
 	  </div>
