@@ -4,6 +4,7 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 title: 홈
+overtitle: 맛난호빵
 icon: fa-home
 order: 1
 ---
