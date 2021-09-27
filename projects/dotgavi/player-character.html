@@ -1,14 +1,56 @@
 ---
-title: "돗가비 : 저주받은 사냥꾼"
-subtitle: "플레이어 캐릭터"
+title: "플레이어 캐릭터"
+subtitle: "돗가비 : 저주받은 사냥꾼"
 layout: page
 hide: true
 ---
 <!--하위 문서 템플릿 버전: 2021-09-26 23:19:03-->
-<figure class="image fit" style="max-width: fit-content;">
-    <img src="images/player_character_diagram.min.svg" alt="플레이어 캐릭터 구조 다이어그램" />
+<figure class="image fit">
+    <img src="images/player_character_diagram.min.svg" alt="" />
     <figcaption>플레이어 캐릭터 구조 다이어그램</figcaption>
 </figure>
-<p>플레이어 캐릭터는 돗가비 프로젝트의 핵심적인 중추 중 하나로, 복잡한 인터렉션과 데이터들을 처리하고 관리하기 위해 여러
-    컴포넌트 및 클래스로 나뉘어져 구현되어 있습니다.</p>
-<a href="./#subdoc" class="button"><i class="fas fa-arrow-left"></i> 프로젝트 소개로 돌아가기</a>
+<p>
+    플레이어 캐릭터는 돗가비 프로젝트의 핵심적인 중추 중 하나로, 복잡한 인터렉션과 데이터들을 처리하고 관리하기 위해
+    여러 컴포넌트 및 클래스로 나뉘어져 구현되어 있습니다. 이들을 크게 4가지로 요약하면 <strong>데이터</strong>,
+    <strong>입출력</strong>, <strong>동작 제어</strong>, <strong>비주얼 제어</strong> 등이 있으며
+    <strong>동작 제어</strong> 의 경우 오브젝트쪽에 붙어 처리되는 <strong>오브젝트 제어</strong>와
+    애니메이터와 연계하여 처리되는 <strong>애니메이션 제어</strong>가 있습니다. 다만 기능적 분류로만 이렇고 코드
+    상으로는 딱히 구분되어 있지 않습니다.
+</p>
+<figure class="image fit">
+    <img src="images/player_character_classification.min.svg" alt="" />
+    <figcaption>플레이어 캐릭터 주요 기능별 분류표</figcaption>
+</figure>
+<p>
+    유니티 에디터상에서의 검색 용이 및 구분을 위해 모든 관련 클래스에 'PlayerCharacter'가 접두사로 붙어있습니다. 그 결과
+    클래스 이름이 과도하게 길어지는 문제가 있어서 다음 프로젝트에서는 네임스페이스와 컴포넌트 메뉴를 사용하여 컴포넌트를
+    분류하는 방향을 지향해야할 것 같습니다.
+    본문과 참고 자료에서 'PlayerCharacter'라는 단어는 다소 생략될 수 있습니다. 
+</p>
+<h3>데이터</h3>
+<p>
+    데이터군은 플레이어 캐릭터의 동작에 필요한 모든 변수 데이터를 캡슐화한 것으로 일종의 인게임 데이터 모델을
+    구현합니다.
+</p>
+<h4>PlayerCharacterConstantData</h4>
+<figure class="image fit">
+    <img src="/assets/images/pic04.jpg" alt="" />
+    <figcaption>ConstantData 클래스 다이어그램</figcaption>
+</figure>
+<p>
+    ConstantData 클래스는 게임의 실행부터 종료까지 변하지 않는 데이터를 담는 타입입니다. 플레이어 캐릭터에
+    대한 설정 데이터들을 담고 있으며 ScriptableObject를 상속받아 에셋을 만들어 인스펙터로 조정할 수 있도록
+    구성하였습니다. 설정 데이터의 분류를 위해 다시 세부 타입으로 나뉘며 중첩 타입으로 구현되어 있습니다.
+</p>
+<h4>PlayerCharacterStatus</h4>
+<figure class="image fit">
+    <img src="/assets/images/pic04.jpg" alt="" />
+    <figcaption>Status 클래스 다이어그램</figcaption>
+</figure>
+<p>
+    Status 클래스는 플레이어 캐릭터의 현재 상태(Status)를 저장하는 타입으로, 실행 중에 구현 사항에 따라 시시각각 변하는
+    데이터를 담게됩니다. 다만 실제 데이터는 StatusData 클래스에 저장되며 Status 클래스는 프로퍼티를 통해 설정하는
+    데이터를 검증하고 갱신하는 역할을 합니다. 지속적으로 값에 영향을 주어야 하거나 영향 받는 기능(사망처리 등)은
+    이 클래스에 정의되어있습니다.
+</p>
+<a href="./#하위_문서" class="button"><i class="fas fa-arrow-left"></i> 프로젝트 소개로 돌아가기</a>

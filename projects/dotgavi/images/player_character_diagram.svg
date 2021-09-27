@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Microsoft Visio, SVG Export에서 생성되었습니다. 돗가비 포트폴리오.svg 페이지-1 -->
+<!-- Microsoft Visio, SVG Export에서 생성되었습니다. player_character_diagram.svg 페이지-1 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
 		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="8.27813in" height="5.88294in"
 		viewBox="0 0 596.026 423.572" xml:space="preserve" color-interpolation-filters="sRGB" class="st9">
@@ -628,8 +628,8 @@
 				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
 				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
 				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):24"/>
-				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.017775588138758):24"/>
-				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.017775588138761):24"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.017775588138757):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.017775588138759):24"/>
 				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-1.7763568394003E-15):24"/>
 			</v:userDefs>
 			<title>단방향 연관.1110</title>
@@ -704,6 +704,30 @@
 			<title>단방향 연관.1125</title>
 			<g id="shape1125-116" v:mID="1125" v:groupContext="groupContent" v:layerMember="1">
 				<path d="M0 416.48 L61.23 416.48" class="st7"/>
+			</g>
+		</g>
+		<g id="group1130-121" transform="translate(528.915,-233.858)" v:mID="1130" v:groupContext="group" v:layerMember="1">
+			<v:userDefs>
+				<v:ud v:nameU="visVersion" v:prompt="" v:val="VT0(15):26"/>
+				<v:ud v:nameU="RelationshipName" v:prompt="" v:val="VT4()"/>
+				<v:ud v:nameU="ShowMulti" v:prompt="" v:val="VT0(0):26"/>
+				<v:ud v:nameU="Identifying" v:prompt="" v:val="VT0(1):26"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(-0.029527559055118):1"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(0.029527559055118):1"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(0):1"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(-1.5707963267949):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="DXBegin" v:prompt="" v:val="VT0(0.043021660041322):24"/>
+				<v:ud v:nameU="DYBegin" v:prompt="" v:val="VT0(0):24"/>
+				<v:ud v:nameU="DXEnd" v:prompt="" v:val="VT0(-0.04302166004133):24"/>
+				<v:ud v:nameU="DYEnd" v:prompt="" v:val="VT0(-4.4408920985006E-16):24"/>
+				<v:ud v:nameU="BeginAngle" v:prompt="" v:val="VT0(0):32"/>
+				<v:ud v:nameU="EndAngle" v:prompt="" v:val="VT0(-3.1415926535898):32"/>
+			</v:userDefs>
+			<title>단방향 연관.1130</title>
+			<g id="shape1130-122" v:mID="1130" v:groupContext="groupContent" v:layerMember="1">
+				<path d="M-3.05 423.57 L17.5 423.57 L17.5 580.89 L-11.13 580.89" class="st7"/>
 			</g>
 		</g>
 	</g>

@@ -15,7 +15,7 @@
       {%- if page.title -%}
         {{- page.title -}}
         {%- if page.subtitle and page.subtitle_hide != true -%}
-          {{- page.subtitle | prepend: '/' -}}
+          {{- page.subtitle | prepend: ' | ' -}}
         {%- endif -%}
         {{" - "}}
       {%- endif -%}
