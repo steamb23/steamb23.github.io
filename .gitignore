@@ -3,3 +3,6 @@
 .sass-cache
 Gemfile.lock
 .jekyll-cache
+
+# 임시파일
+~$$*.*

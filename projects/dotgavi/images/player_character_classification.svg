@@ -1021,7 +1021,7 @@
 			<v:textRect cx="56.6929" cy="268.624" width="113.39" height="34.0157"/>
 			<rect x="0" y="251.616" width="113.386" height="34.0157" class="st2"/>
 			<text x="29.8" y="272.22" class="st6" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>Behaviour</text>		</g>
-		<g id="shape1175-93" v:mID="1175" v:groupContext="shape" transform="translate(304.057,-128.976)">
+		<g id="shape1175-93" v:mID="1175" v:groupContext="shape" transform="translate(451.459,-73.7008)">
 			<title>패키지(축소).1038</title>
 			<desc>RootMotion</desc>
 			<v:userDefs>
@@ -1051,7 +1051,7 @@
 			<v:textRect cx="56.6929" cy="268.624" width="113.39" height="34.0157"/>
 			<rect x="0" y="251.616" width="113.386" height="34.0157" class="st2"/>
 			<text x="13.35" y="272.22" class="st6" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>DamageHandler</text>		</g>
-		<g id="shape1178-102" v:mID="1178" v:groupContext="shape" transform="translate(451.459,-18.4252)">
+		<g id="shape1178-102" v:mID="1178" v:groupContext="shape" transform="translate(9.25394,-73.7008)">
 			<title>패키지(축소).60</title>
 			<desc>StateFlag</desc>
 			<v:userDefs>
@@ -1061,7 +1061,7 @@
 			<v:textRect cx="56.6929" cy="268.624" width="113.39" height="34.0157"/>
 			<rect x="0" y="251.616" width="113.386" height="34.0157" class="st2"/>
 			<text x="31.46" y="272.22" class="st6" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>StateFlag</text>		</g>
-		<g id="shape1179-105" v:mID="1179" v:groupContext="shape" transform="translate(451.459,-128.976)">
+		<g id="shape1179-105" v:mID="1179" v:groupContext="shape" transform="translate(9.25394,-18.4252)">
 			<title>패키지(축소).1036</title>
 			<desc>StateParameter</desc>
 			<v:userDefs>
@@ -1081,7 +1081,7 @@
 			<v:textRect cx="56.6929" cy="268.624" width="113.39" height="34.0157"/>
 			<rect x="0" y="251.616" width="113.386" height="34.0157" class="st2"/>
 			<text x="15.69" y="272.22" class="st6" v:langID="1042"><v:paragraph v:horizAlign="1"/><v:tabList/>StateBehaviour</text>		</g>
-		<g id="shape1181-111" v:mID="1181" v:groupContext="shape" transform="translate(451.459,-73.7008)">
+		<g id="shape1181-111" v:mID="1181" v:groupContext="shape" transform="translate(451.459,-128.976)">
 			<title>패키지(축소).1044</title>
 			<desc>StateFlagSetter</desc>
 			<v:userDefs>
