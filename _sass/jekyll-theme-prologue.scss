@@ -64,7 +64,7 @@
 	body {
 		background: #fff;
 		font-family: 'KoPubWorld Dotum', sans-serif;
-		font-size: 19pt;
+		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -79,7 +79,7 @@
 
 	input, textarea, select {
 		font-family: 'KoPubWorld Dotum', sans-serif;
-		font-size: 19pt;
+		font-size: 17pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -89,6 +89,7 @@
 		font-weight: 300;
 		color: #666;
 		line-height: 1.5em;
+		font-size: 1.2em;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -158,6 +159,7 @@
 	hr {
 		border: 0;
 		border-top: solid 1px #41484c;
+		margin: 1.25em auto;
 	}
 
 	code {
@@ -191,7 +193,7 @@
 	}
 
 	p, ul, ol, dl, table {
-		margin-bottom: 2em;
+		margin-bottom: 1em;
 	}
 
 	dl {
@@ -830,7 +832,7 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 17pt;
 			}
 
 			.container {
@@ -920,7 +922,7 @@
 			}
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 17pt;
 			}
 
 			header {

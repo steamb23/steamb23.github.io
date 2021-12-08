@@ -75,5 +75,8 @@ figure {
     font-size: 0.8em;
     font-weight: lighter;
     max-width: fit-content;
-    margin: auto;
+
+    &.center{
+        margin: auto;
+    }
 }
