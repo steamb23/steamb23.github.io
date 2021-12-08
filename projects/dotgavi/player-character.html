@@ -5,33 +5,24 @@ layout: page
 hide: true
 ---
 <!--하위 문서 템플릿 버전: 2021-09-26 23:19:03-->
-<figure class="image fit">
+<figure class="center image fit">
     <img src="images/player_character_diagram.min.svg" alt="" />
     <figcaption>플레이어 캐릭터 구조 다이어그램</figcaption>
 </figure>
 <p>
-    플레이어 캐릭터는 돗가비 프로젝트의 핵심적인 중추 중 하나로, 복잡한 인터렉션과 데이터들을 처리하고 관리하기 위해
-    여러 컴포넌트 및 클래스로 나뉘어져 구현되어 있습니다. 이들을 크게 4가지로 요약하면 <strong>데이터</strong>,
-    <strong>입출력</strong>, <strong>동작 제어</strong>, <strong>비주얼 제어</strong> 등이 있으며
-    <strong>동작 제어</strong> 의 경우 오브젝트쪽에 붙어 처리되는 <strong>오브젝트 제어</strong>와
-    애니메이터와 연계하여 처리되는 <strong>애니메이션 제어</strong>가 있습니다. 다만 기능적 분류로만 이렇고 코드
-    상으로는 딱히 구분되어 있지 않습니다.
+    플레이어 캐릭터는 돗가비 프로젝트의 핵심적인 중추 중 하나로, 복잡한 인터렉션과 데이터들을 처리하고 관리하기 위해 여러 컴포넌트 및 클래스로 나뉘어져 구현되어 있습니다. 이들을 크게 4가지로 요약하면 <strong>데이터</strong>, <strong>입출력</strong>, <strong>동작 제어</strong>, <strong>비주얼 제어</strong> 등이 있으며 <strong>동작 제어</strong> 의 경우 오브젝트쪽에 붙어 처리되는 <strong>오브젝트 제어</strong>와 애니메이터와 연계하여 처리되는 <strong>애니메이션 제어</strong>가 있습니다. 다만 기능적 분류로만 이렇고 코드 상으로는 딱히 구분되어 있지 않습니다.
 </p>
-<figure class="image fit">
+<figure class="center image fit">
     <img src="images/player_character_classification.min.svg" alt="" />
     <figcaption>플레이어 캐릭터 주요 기능별 분류표</figcaption>
 </figure>
 <p>
-    유니티 에디터상에서의 검색 용이 및 구분을 위해 모든 관련 클래스에 'PlayerCharacter'가 접두사로 붙어있습니다. 그 결과
-    클래스 이름이 과도하게 길어지는 문제가 있어서 다음 프로젝트에서는 네임스페이스와 컴포넌트 메뉴를 사용하여 컴포넌트를
-    분류하는 방향을 지향해야할 것 같습니다.
-    본문과 참고 자료에서 'PlayerCharacter'라는 단어는 다소 생략될 수 있습니다. 
+    유니티 에디터상에서의 검색 용이 및 구분을 위해 모든 관련 클래스에 'PlayerCharacter'가 접두사로 붙어있습니다. 그 결과 클래스 이름이 과도하게 길어지는 문제가 있어서 다음 프로젝트에서는 네임스페이스와 컴포넌트 메뉴를 사용하여 컴포넌트를 분류하는 방향을 지향해야할 것 같습니다. 본문과 참고 자료에서 'PlayerCharacter'라는 단어는 다소 생략될 수 있습니다. 
 </p>
 
 <h3>데이터</h3>
 <p>
-    데이터 군은 플레이어 캐릭터의 동작에 필요한 모든 변수 데이터를 캡슐화한 것으로 일종의 인게임 데이터 모델을
-    구현합니다.
+    데이터 군은 플레이어 캐릭터의 동작에 필요한 모든 변수 데이터를 캡슐화한 것으로 일종의 인게임 데이터 모델을 구현합니다.
 </p>
 <h4>PlayerCharacterConstantData</h4>
 <figure class="image fit">
@@ -39,9 +30,7 @@ hide: true
     <figcaption>ConstantData 클래스 다이어그램</figcaption>
 </figure>
 <p>
-    ConstantData 클래스는 게임의 실행부터 종료까지 변하지 않는 데이터를 담는 타입입니다. 플레이어 캐릭터에
-    대한 설정 데이터들을 담고 있으며 ScriptableObject를 상속받아 에셋을 만들어 인스펙터로 조정할 수 있도록
-    구성하였습니다. 설정 데이터의 분류를 위해 다시 세부 타입으로 나뉘며 중첩 타입으로 구현되어 있습니다.
+    PlayerCharacterConstantData 클래스는 게임의 실행부터 종료까지 변하지 않는 데이터를 담는 타입입니다. 플레이어 캐릭터에 대한 설정 데이터들을 담고 있으며 ScriptableObject를 상속받아 에셋을 만들어 인스펙터로 조정할 수 있도록 구성하였습니다. 설정 데이터의 분류를 위해 다시 세부 타입으로 나뉘며 중첩 타입으로 구현되어 있습니다.
 </p>
 
 <h4>PlayerCharacterStatus</h4>
@@ -50,10 +39,7 @@ hide: true
     <figcaption>Status 클래스 다이어그램</figcaption>
 </figure>
 <p>
-    Status 클래스는 플레이어 캐릭터의 현재 상태(Status)를 저장하는 타입으로, 실행 중에 구현 사항에 따라 시시각각 변하는
-    데이터를 담게됩니다. 다만 실제 데이터는 StatusData 클래스에 저장되며 Status 클래스는 프로퍼티를 통해 설정하는
-    데이터를 검증하고 갱신하는 역할을 합니다. 지속적으로 값에 영향을 주어야 하거나 영향 받는 기능(사망처리 등)은
-    이 클래스에 정의되어있습니다.
+    PlayerCharacterStatus 클래스는 플레이어 캐릭터의 현재 상태(Status)를 저장하는 타입으로, 실행 중에 구현 사항에 따라 시시각각 변하는 데이터를 담게됩니다. 다만 실제 데이터는 PlayerCharacterStatusData 클래스에 저장되며 PlayerCharacterStatus 클래스는 프로퍼티를 통해 설정하는 데이터를 검증하고 갱신하는 역할을 합니다. 지속적으로 값에 영향을 주어야 하거나 영향 받는 기능(사망처리 등)은 이 클래스에 정의되어있습니다.
 </p>
 
 <h4>PlayerCharacterStateFlag</h4>
@@ -62,23 +48,43 @@ hide: true
     <figcaption>StateFlag 클래스 다이어그램</figcaption>
 </figure>
 <p>
-    StateFlag 클래스는 애니메이션 스테이트 머신이 능동적으로 Behaviour에 현재 상태를 알릴 수 있는 플래그들을 저장하는
-    타입 입니다. 후술할 StateFlagSetter을 이용해 이 타입에 접근하여 값을 설정하며 Behaviour는 이 값들을 읽고 그에 맞는
-    동작을 하게 됩니다.
+    PlayerCharacterStateFlag 클래스는 애니메이터 스테이트 머신이 능동적으로 Behaviour에 현재 상태를 알릴 수 있는 플래그들을 저장하는타입 입니다. 후술할 PlayerCharacterStateFlagSetter을 이용해 이 타입에 접근하여 값을 설정하며 Behaviour는 이 값들을 읽고 그에 맞는 동작을 하게 됩니다.
 </p>
 <p>
-    이런 구조를 취한 이유는 프로토타입 개발 단계인 Promote 프로젝트에서 애니메이션 스테이트 머신을 사용해본 결과
-    코드에서 애니메이션 스테이트에 접근하여 쿼리하는 과정이 빈번하게 일어나기에는 성능 측면에서 비효율적이지 않을까
-    하는 의심과 고민끝에 데이터를 코드로 관리하는 하드 코딩 방식을 취하게 되었습니다.
+    이런 구조를 취한 이유는 프로토타입 개발 단계인 Promote 프로젝트에서 애니메이션 스테이트 머신을 사용해본 결과 코드에서 애니메이션 스테이트에 접근하여 쿼리하는 과정이 빈번하게 일어나기에는 성능 측면에서 비효율적이지 않을까 하는 의심과 고민끝에 데이터를 코드로 관리하는 하드 코딩 방식을 취하게 되었습니다.
 </p>
 
 <h4>PlayerCharacterStateParameter</h4>
+<figure class="image fit">
+    <img src="/assets/images/pic04.jpg" alt="" />
+    <figcaption>PlayerCharacterStateParameter 클래스 다이어그램</figcaption>
+</figure>
+<p>
+    PlayerCharacterStateParameter 클래스는 애니메이션을 제어하기 위한 애니메이터 파라미터들을 캡슐화하는 타입입니다. 파라미터에  접근할 때 사용되는 변수 이름 문자열이 내부적으로 아이디로 변환되는 불필요한 과정을 절약하기 위해 미리 문자열을 애니메이터 해쉬로 변환하여 캐싱해두는 전략을 택했습니다.
+</p>
+<p>
+    애니메이터에 파라미터를 추가하는 작업이 한 단계 늘어난 꼴이지만 코드에서 프로퍼티나 메서드의 형태로 빠르게 접근할 수 있다는 장점이 있으며 충분히 자동화할 여지가 있을 것으로 기대합니다.
+</p>
 
 <h3>입출력</h3>
 
 <h4>PlayerCharacterInput</h4>
+<figure class="image fit">
+    <img src="/assets/images/pic04.jpg" alt="" />
+    <figcaption>PlayerCharacterInput 클래스 다이어그램</figcaption>
+</figure>
+<p>
+    PlayerCharacterInput 클래스는 플레이어의 입력 상태를 받아 저장해두는 타입으로, 유니티의 새로운 Input System에서 입력 값을 이벤트의 형태로 전달해주고 있기 때문에 입력 상태를 저장하고 이벤트를 중개하는 구조를 가지고 있습니다.
+</p>
 
 <h4>PlayerCharacterDamageTrigger</h4>
+<figure class="image fit">
+    <img src="/assets/images/pic04.jpg" alt="" />
+    <figcaption>PlayerCharacterDamageTrigger 클래스 다이어그램</figcaption>
+</figure>
+<p>
+    PlayerCharacterDamageTrigger 클래스는 무기 콜라이더의 충돌(Trigger)를 검출하여 
+</p>
 
 <h4>PlayerCharacterDamageHandler</h4>
 
