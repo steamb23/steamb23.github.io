@@ -27,7 +27,7 @@
 		boxModel: 'border',
 		grid: ( gutters: (40px, 40px) ),
 		conditionals: true,
-		containers: 1400px,
+		containers: 1200px,
 		breakpoints: (
 			wide: (
 				containers: 1200px,
@@ -238,6 +238,13 @@
 			padding-left: 0.25em;
 			margin-left: 1.25em;
 		}
+	}
+	
+
+	.grid {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		column-gap: 40px;
 	}
 
 /* Image */
@@ -904,6 +911,10 @@
 			#main {
 				margin-left: 20%;
 			}
+			
+			.grid {
+				column-gap: 20px;
+			}
 
 	}
 
@@ -1092,6 +1103,10 @@
 					}
 				}
 			}
+			
+			.grid {
+				column-gap: 20px;
+			}
 	}
 
 /* Mobile */
@@ -1160,6 +1175,11 @@
 						}
 					}
 				}
+			}
+			
+
+			.grid {
+				grid-template-columns: repeat(1, 1fr);
 			}
 
 	}
